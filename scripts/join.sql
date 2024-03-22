@@ -79,3 +79,12 @@ JOIN game
 ON goal.matchid=game.id
 WHERE team1='POL' OR team2='POL'
 GROUP BY matchid, mdate;
+
+--12. For every match where 'GER' scored, show matchid, match date and 
+--the number of goals scored by 'GER'
+SELECT matchid, mdate, COUNT(*)
+FROM game
+JOIN goal
+ON game.id=goal.matchid
+WHERE teamid='GER'
+GROUP BY matchid;
