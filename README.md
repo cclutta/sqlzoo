@@ -8,4 +8,4 @@
 4. [SELECT in SELECT](scripts/select_in_select.sql)
 5. [SUM and COUNT](scripts/sum_and_count.sql)
 6. [Join](scripts/join.sql)
-7. [Window Function] (scripts/window_functions.sql)
+7. [Window Function](scripts/window_functions.sql)
